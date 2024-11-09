@@ -4,7 +4,7 @@ import {FaServer,FaCode} from 'react-icons/fa'
 const Services = () => {
   return (
     <div className='servicesWrapper-div'>
-      <h2 className="heading">My <span>Services</span></h2>
+      <h2 className="heading">Professional <span>Services</span></h2>
         <div className="services-container">
             <div className="services-box">
                 <div className="Icons">

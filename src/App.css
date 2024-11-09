@@ -623,6 +623,9 @@ section {
   #home .home1-div h1{
     font-size: 1.5rem;
   }
+  #home .home1-div p,h3,h1{
+    padding-left: 8px;
+  }
   #home .home1-div .logoCv-wrappDiv{
     width: 100%;
     display: flex;
@@ -665,6 +668,7 @@ section {
   }
   #about .AboutContent-Div p{
     font-size: 1rem;
+    padding-left: 8px;
   }
   #services .heading{
     font-size: 2rem;
@@ -877,6 +881,9 @@ section {
     width: 100%;
     padding: 0;
   }
+  #home .home1-div p,h3,h1{
+    padding-left: 8px;
+  }
   #home .home1-div h3{
     font-size: 1.1rem;
   }
@@ -927,6 +934,7 @@ section {
   }
   #about .AboutContent-Div p{
     font-size: 1rem;
+    padding-left: 8px;
   }
   #services .heading{
     font-size: 2rem;
@@ -1253,6 +1261,7 @@ section {
   }
   #about .AboutContent-Div p{
     font-size: 1rem;
+    padding-left: 8px;
   }
   #services .heading{
     font-size: 2rem;

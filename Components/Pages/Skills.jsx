@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <div className='skillsWrapp-div'>
       <div className="headingText-div">
-        <h2 className='heading'>My <span>Skills</span></h2>
+        <h2 className='heading'>Technical <span>Skills</span></h2>
       </div>
       <div className="technicalSkills-div">
         <div className="textDiv">
