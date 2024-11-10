@@ -4,7 +4,7 @@ import homePageNews from '../../src/assets/newHomePage.png'
 import Faqs from '../../src/assets/Faqs.png'
 import newsLetter from '../../src/assets/newsLetter.png'
 import AgeCalProject from '../../src/assets/AgeCal.png'
-import CAR6 from '../../src/assets/car6.jpg'
+import estatePic from '../../src/assets/estate.png'
 import  Logo from '../../src/assets/external-link-svgrepo-com.svg';
 
 const Portfolio = () => {
@@ -13,11 +13,11 @@ const Portfolio = () => {
       <h2 className="heading"> Latest <span>Projects</span></h2>
       <div className="portfolio-container">
             <div className="portfolio-box">
-                <img src={gbcProject} alt=""/>
+                <img src={estatePic} alt=""/>
                 <div className="portfolio-layer">
-                    <h4>SPM SOFTWARE</h4>
-                    <p>Staff Work Schedule and Perfomance Monitor System for Ghana Broadcasting Corporation(GBC).</p>
-                    <a href="http://www.gbchr.local/" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
+                    <h4>REAL ESTATE WEBSITE</h4>
+                    <p>Responsive Real Estate Website developed with REACT and TAILWIND CSS.</p>
+                    <a href="https://estateproject-navy.vercel.app/" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
                 </div>
             </div>
             <div className="portfolio-box">
@@ -50,14 +50,6 @@ const Portfolio = () => {
                     <h4>AGE CALCULATOR</h4>
                     <p>This age calculator determines a person's age based on their birthdate by calculating the difference between the current date and the provided birthdate.</p>
                     <a href="https://massive12356.github.io/Frontend-Challenge/age-calculator-app-main/" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
-                </div>
-            </div>
-            <div className="portfolio-box">
-                <img src={CAR6} alt=""/>
-                <div className="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
                 </div>
             </div>
         </div>
