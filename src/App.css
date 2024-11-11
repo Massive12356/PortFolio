@@ -857,6 +857,7 @@ section {
     width: 32%;
     cursor: pointer;
     float: right;
+    color: var(--main-color);
   }
   section{
     width: 100%;
