@@ -1,6 +1,6 @@
 import React, { useEffect, useState }from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaGithub } from 'react-icons/fa';
-import myResume from '../../src/assets/MintahCV.pdf';
+import myResume from '../../src/assets/EdwardMintah.pdf';
 import myHomePic from '../../src/assets/eddy (3).jpeg'
 
 const Home = () => {

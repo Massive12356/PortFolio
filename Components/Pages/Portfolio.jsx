@@ -1,6 +1,5 @@
 import React from 'react'
-import gbcProject from '../../src/assets/gbchr.png'
-import homePageNews from '../../src/assets/newHomePage.png'
+import Mentalhealth from '../../src/assets/mentalHealth.png'
 import Faqs from '../../src/assets/Faqs.png'
 import newsLetter from '../../src/assets/newsLetter.png'
 import AgeCalProject from '../../src/assets/AgeCal.png'
@@ -21,11 +20,11 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="portfolio-box">
-                <img src={homePageNews} alt=""/>
+                <img src={Mentalhealth} alt=""/>
                 <div className="portfolio-layer">
-                    <h4>NEWS BLOG</h4>
-                    <p>THis  news homepage displays top stories and breaking news, offering quick access to various news categories and updates.</p>
-                    <a href="https://massive12356.github.io/Frontend-Challenge/homePageNews/" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
+                    <h4>MENTAL HEALTH WEBSITE</h4>
+                    <p>A responsive platform dedicated to promoting mental health and well-being.Accessible on any device.</p>
+                    <a href="https://mental-health-theta-dun.vercel.app/" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
                 </div>
             </div>
             <div className="portfolio-box">
