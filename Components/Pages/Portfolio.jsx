@@ -4,6 +4,7 @@ import newsLetter from '../../src/assets/newsLetter.png'
 import AgeCalProject from '../../src/assets/AgeCal.png'
 import estatePic from '../../src/assets/estate.png'
 import  pic1 from '../../src/assets/construction pic.png';
+import  Logo from '../../src/assets/external-link-svgrepo-com.svg';
 
 const Portfolio = () => {
   return (
