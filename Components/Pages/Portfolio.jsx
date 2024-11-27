@@ -1,10 +1,9 @@
 import React from 'react'
 import Mentalhealth from '../../src/assets/mentalHealth.png'
-import Faqs from '../../src/assets/Faqs.png'
 import newsLetter from '../../src/assets/newsLetter.png'
 import AgeCalProject from '../../src/assets/AgeCal.png'
 import estatePic from '../../src/assets/estate.png'
-import  Logo from '../../src/assets/external-link-svgrepo-com.svg';
+import  pic1 from '../../src/assets/construction pic.png';
 
 const Portfolio = () => {
   return (
@@ -28,11 +27,11 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="portfolio-box">
-                <img src={Faqs} alt=""/>
+                <img src={pic1} alt=""/>
                 <div className="portfolio-layer">
-                    <h4>Frequently Asked Questions (FAQS)</h4>
-                    <p>This is a  FAQ page that provides quick answers to common customer questions, improving user experience and reducing the need for direct support.</p>
-                    <a href="https://massive12356.github.io/Frontend-Challenge/faq-accordion-main/index.html" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
+                    <h4>CONSTRUCTION WEBSITE</h4>
+                    <p>A user-friendly construction website highlighting services, past projects, and client testimonials to build trust and engagement.</p>
+                    <a href="https://construction-app-nine.vercel.app/" target="_blank"><img src={Logo} alt="External Link" className="link" /></a>
                 </div>
             </div>
             <div className="portfolio-box">
