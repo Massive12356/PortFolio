@@ -7,6 +7,7 @@ import Services from '../Components/Pages/Services'
 import Portfolio from '../Components/Pages/Portfolio'
 import Skills from '../Components/Pages/Skills'
 import Contact from '../Components/Pages/Contact'
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
+
+      <Analytics />
     </>
   )
 }
