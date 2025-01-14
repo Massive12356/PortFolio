@@ -13,6 +13,7 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 function App() {
   return (
     <>
+    <SpeedInsights>
     <Header />
     {/* Main sections for smooth scrolling */}
 
@@ -34,9 +35,9 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
+      </SpeedInsights>
 
       <Analytics />
-      <SpeedInsights />
     </>
   )
 }
