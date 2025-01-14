@@ -7,13 +7,12 @@ import Services from '../Components/Pages/Services'
 import Portfolio from '../Components/Pages/Portfolio'
 import Skills from '../Components/Pages/Skills'
 import Contact from '../Components/Pages/Contact'
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/react';
+// import { Analytics } from '@vercel/analytics/react';
+// import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
     <>
-    <SpeedInsights>
     <Header />
     {/* Main sections for smooth scrolling */}
 
@@ -35,9 +34,7 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
-      </SpeedInsights>
-
-      <Analytics />
+      
     </>
   )
 }
